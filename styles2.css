@@ -1,0 +1,54 @@
+#menubar a{
+    display: inline-block;
+    padding: 7px;
+    margin: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+#menubar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#menubar li{
+    padding: 0;
+    margin-left: -50px;
+}
+
+.items img{
+    width: 250px;
+    height: 300px;
+    padding:5px;
+}
+
+.items{
+    display: block;
+    text-align: center;
+    padding:10px 5px;
+}
+
+.item{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding:10px;
+    margin:10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:  #a81124 !important;
+    color: white !important;
+    
+    }
+     .nav-pills{
+        background-color: #a81124;
+        width: 35%;
+    }
+
+    .nav-pills .nav-link{
+       
+        border: 1px solid white !important;
+    }
